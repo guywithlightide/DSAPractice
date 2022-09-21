@@ -1,5 +1,11 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.TreeMap;
+import java.util.stream.Collectors;
 
 public class FrequencyOfElements {
 	public static void bruteForce(int [] arr) {
@@ -33,5 +39,12 @@ public class FrequencyOfElements {
 			}
 		}
 		freqMap.forEach((k,v)->{System.out.println(k+" "+v);});
+	}
+	
+	public static void nthFreqElement(int [] arr, int n) {
+		Map<Integer, List<Integer>> freqMap = new TreeMap<Integer, List<Integer>>();
+ 		for (int i = 0; i < arr.length; i++) {
+ 			
+		} 		
 	}
 }
