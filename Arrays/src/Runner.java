@@ -5,5 +5,6 @@ public class Runner {
 		int [] arr = {1,23,4,1,45,23,2,2,1};
 		FrequencyOfElements.bruteForce(arr);
 		FrequencyOfElements.usingHashMap(arr);
+		System.out.println(FrequencyOfElements.nthFreqElement(arr, 2));
 	}
 }
