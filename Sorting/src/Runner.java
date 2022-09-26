@@ -13,5 +13,8 @@ public class Runner {
 		BubbleSort.sort(arr);
 		System.out.println("Bubble sort => "+Arrays.toString(arr));
 			
+		arr = Arrays.copyOf(originalArr, originalArr.length);
+		InsertionSort.sort(arr);
+		System.out.println("Insertion sort => "+Arrays.toString(arr));
 	}
 }
