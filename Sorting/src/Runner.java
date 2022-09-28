@@ -16,5 +16,10 @@ public class Runner {
 		arr = Arrays.copyOf(originalArr, originalArr.length);
 		InsertionSort.sort(arr);
 		System.out.println("Insertion sort => "+Arrays.toString(arr));
+		
+		arr = Arrays.copyOf(originalArr, originalArr.length);
+		MergeSort mergeSort = new MergeSort();
+		mergeSort.mergeSort(arr,0,arr.length-1);
+		System.out.println("Merge sort => "+Arrays.toString(arr));
 	}
 }
